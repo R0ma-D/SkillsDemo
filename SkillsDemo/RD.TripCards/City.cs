@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace RD.TripCards
 {
+    /// <summary>
+    /// Населённый пункт
+    /// </summary>
     public sealed class City : IEquatable<City>
     {
         public City(string name)

@@ -41,6 +41,7 @@
   <ItemGroup>
     <Compile Include="City.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TripHelper.cs" />
     <Compile Include="TripCard.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace RD.TripCards
 {
+    /// <summary>
+    /// Карточка путешествия
+    /// </summary>
     public sealed class TripCard
     {
         public TripCard(City from, City to)
@@ -26,12 +29,18 @@ namespace RD.TripCards
                 throw new ArgumentException("Cities must be not equals");
         }
 
+        /// <summary>
+        /// Пункт отправления
+        /// </summary>
         public City From
         {
             get;
             private set;
         }
 
+        /// <summary>
+        /// Пункт назначения
+        /// </summary>
         public City To
         {
             get;
